@@ -60,7 +60,7 @@ while (true) {
     // Break the loop if the client aborted the connection (closed the page)
     if ( connection_aborted() ) break;
 
-    sleep(2);
+    sleep(1);
 }
 
 
