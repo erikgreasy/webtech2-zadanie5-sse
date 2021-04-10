@@ -12,22 +12,6 @@ if( isset($lastId) && !empty($lastId) ) {
     $lastId = 0;
 }
 
-// if( file_exists( 'options.json' ) ) {
-//     extract( json_decode( file_get_contents( 'options.json' ), true ) );
-//     $sin = filter_var( $sin, FILTER_VALIDATE_BOOLEAN );
-//     $cos = filter_var( $cos, FILTER_VALIDATE_BOOLEAN );
-//     $cossin = filter_var( $cossin, FILTER_VALIDATE_BOOLEAN );
-
-//     $a = intVal($a);
-// } else {
-//     die();
-// }
-
-// var_dump( $cos );
-
-// die();
-
-
 
 $result = [];
 
