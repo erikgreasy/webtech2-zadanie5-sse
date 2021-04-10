@@ -15,18 +15,21 @@ var myChart = new Chart(ctx, {
 	data: {
 		labels: labels,
 		datasets: [{
+			label: 'Sin',
 			data: dataSin,
 			borderColor: 'rgb(75, 192, 192)',
 			tension: 0.1
 		},
 		{
+			label: 'Cos',
 			data: dataCos,
 			borderColor: 'rgb(75, 55, 32)',
 			tension: 0.1
 		},
 		{
+			label: 'CosSin',
 			data: dataCosSin,
-			borderColor: 'rgb(22, 55, 32)',
+			borderColor: 'rgb(99, 200, 0)',
 			tension: 0.1
 		}]
 	},
